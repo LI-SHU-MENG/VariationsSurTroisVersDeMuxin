@@ -207,7 +207,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 31a2fb6d96c154479a4ecf48abf234c4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.8
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -775,7 +775,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: d2eceb3b259df4b9a9ccbd4b156d7256, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.8
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -929,7 +929,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 8527c7469e3884a9b8fb7f34ed4cfc4a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.8
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1169,7 +1169,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 86c242e2287e345de98a0cf9daf5f4fc, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.8
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1515,7 +1515,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 31a2fb6d96c154479a4ecf48abf234c4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.8
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1701,6 +1701,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CubeRoom
       objectReference: {fileID: 0}
+    - target: {fileID: 4000010284511462, guid: 8d8c4feb0f3734158b2332286ba4342b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 206
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014274899290, guid: 8d8c4feb0f3734158b2332286ba4342b, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1735,23 +1739,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114000010983088856, guid: 8d8c4feb0f3734158b2332286ba4342b,
         type: 3}
+      propertyPath: size.x
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010983088856, guid: 8d8c4feb0f3734158b2332286ba4342b,
+        type: 3}
+      propertyPath: size.y
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010983088856, guid: 8d8c4feb0f3734158b2332286ba4342b,
+        type: 3}
+      propertyPath: size.z
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010983088856, guid: 8d8c4feb0f3734158b2332286ba4342b,
+        type: 3}
       propertyPath: backWall
-      value: 0
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 114000010983088856, guid: 8d8c4feb0f3734158b2332286ba4342b,
         type: 3}
       propertyPath: leftWall
-      value: 0
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 114000010983088856, guid: 8d8c4feb0f3734158b2332286ba4342b,
         type: 3}
       propertyPath: frontWall
-      value: 0
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 114000010983088856, guid: 8d8c4feb0f3734158b2332286ba4342b,
         type: 3}
       propertyPath: rightWall
-      value: 0
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1888,7 +1907,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 263dca8b54304452db19ccaa554a45c0, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.8
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3212,7 +3231,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 31a2fb6d96c154479a4ecf48abf234c4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.8
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3501,7 +3520,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 97cfa216e4e274af0b643f338a317518, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.8
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -3756,7 +3775,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 31a2fb6d96c154479a4ecf48abf234c4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.8
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
